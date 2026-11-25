@@ -1,0 +1,35 @@
+/* sub4_1 인재개발 */
+#content .title_area{padding: 50px 20px 0; text-align: center;}
+#content .title_area .eng{margin-top: 0; font-size: var(--font-12-size); font-weight: 700; letter-spacing: 0.25em; color: var(--color-point3);}
+#content .title_area h2{margin-top: 9px; font-size: 2.5rem; font-weight: 300; line-height: 1.4; letter-spacing: -0.02em; color: var(--color-point2);}
+#content .title_area h2 strong{font-weight: 700;}
+#content .title_area p{margin-top: 10px; font-size: var(--font-16-size); line-height: 1.8; letter-spacing: -0.02em; color: var(--color-font2);}
+
+/* 세 가지 마음 */
+#content .talent{padding: 50px 20px;}
+#content .talent>.eng{margin-top: 0; font-size: var(--font-12-size); font-weight: 700; letter-spacing: 0.25em; color: var(--color-point3);}
+#content .talent h3{margin-top: 7px; font-size: var(--font-23-size); font-weight: 700; line-height: 1.4; letter-spacing: -0.02em; color: var(--color-point2);}
+#content .talent>p{margin-top: 10px; font-size: var(--font-14-size); line-height: 1.75; letter-spacing: -0.02em; color: var(--color-font2);}
+#content .talent ul{margin-top: 25px; border-top: 2px solid var(--color-point2);}
+#content .talent li{display: flex; justify-content: space-between; align-items: center; padding: 22px 0; border-bottom: 1px solid #e5e0da;}
+#content .talent .han{width: 26%; font-size: 2.571rem; font-weight: 300; line-height: 1; color: var(--color-point3);}
+#content .talent dl{width: 72%;}
+#content .talent dt{font-size: var(--font-18-size); font-weight: 700; letter-spacing: -0.02em; color: var(--color-point2);}
+#content .talent dt .eng{display: block; margin-bottom: 4px; font-size: var(--font-12-size); letter-spacing: 0.2em; color: var(--color-font3);}
+#content .talent dt .eng2{margin-left: 6px; font-family: "Roboto", sans-serif; font-size: var(--font-12-size); letter-spacing: 0.15em; color: var(--color-font3);}
+#content .talent dd{margin-top: 6px; font-size: var(--font-14-size); line-height: 1.65; letter-spacing: -0.02em; color: var(--color-font2);}
+
+/* 성장 계단 */
+#content .growth{padding: 50px 20px; background: var(--color-sub1);}
+#content .growth>.eng{margin-top: 0; font-size: var(--font-12-size); font-weight: 700; letter-spacing: 0.25em; color: var(--color-point3);}
+#content .growth h3{margin-top: 7px; font-size: var(--font-23-size); font-weight: 700; line-height: 1.4; letter-spacing: -0.02em; color: var(--color-point2);}
+#content .growth>p{margin-top: 10px; font-size: var(--font-14-size); line-height: 1.75; letter-spacing: -0.02em; color: var(--color-font2);}
+#content .growth ol{margin-top: 25px;}
+#content .growth li{box-sizing: border-box; margin: 6px 0 0 auto; padding: 18px 16px; color: var(--color-point2);}
+#content .growth li:nth-child(1){width: 76%; background: rgba(201,164,92,.25);}
+#content .growth li:nth-child(2){width: 84%; background: rgba(201,164,92,.5);}
+#content .growth li:nth-child(3){width: 92%; background: var(--color-point3); color: #fff;}
+#content .growth li:nth-child(4){width: 100%; background: var(--color-point2); color: #fff;}
+#content .growth li .eng{display: block; font-size: var(--font-12-size); font-weight: 700; letter-spacing: 0.2em; opacity: .7;}
+#content .growth li strong{display: block; margin-top: 4px; font-size: var(--font-16-size); font-weight: 700; letter-spacing: -0.02em;}
+#content .growth li p{margin-top: 4px; font-size: var(--font-12-size); line-height: 1.6; letter-spacing: -0.02em; opacity: .8;}

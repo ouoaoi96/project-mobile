@@ -1,0 +1,19 @@
+/* sub1_2 국순당역사 콘텐츠 */
+#content .title_area{padding: 50px 20px 0; text-align: center;}
+#content .title_area .eng{font-size: var(--font-12-size); font-weight: 700; letter-spacing: 0.25em; color: var(--color-point3);}
+#content .title_area h2{margin-top: 9px; font-size: 2.5rem; font-weight: 300; line-height: 1.4; letter-spacing: -0.02em; color: var(--color-point2);}
+#content .title_area h2 strong{font-weight: 700;}
+#content .title_area p{margin-top: 10px; font-size: var(--font-16-size); letter-spacing: -0.02em; color: var(--color-font2);}
+#content .period_tab{display: flex; justify-content: space-between; padding: 60px 20px 0;}
+#content .period_tab li{width: 31.5%;}
+#content .period_tab a{padding: 10px 0; line-height: 1.4; text-align: center; font-size: var(--font-12-size); color: #666; border: 1px solid #e5e0da;}
+#content .period_tab a.active{background: var(--color-point2); border-color: var(--color-point2); font-weight: 700; color: #fff;}
+#content .himg{position: relative; margin: 20px 20px 0;}
+#content .himg img{width: 100%; display: block;}
+#content .himg span{position: absolute; left: 0; bottom: 0; padding: 7px 13px; font-size: var(--font-14-size); font-weight: 700; color: #fff; background: var(--color-main);}
+#content .tl{margin: 30px 20px 50px; padding-left: 20px; border-left: 2px solid #e5e0da;}
+#content .tl li{position: relative; padding-bottom: 22px;}
+#content .tl li::before{content: ''; position: absolute; left: -25px; top: 7px; width: 8px; height: 8px; border: 2px solid var(--color-main); border-radius: 50%; background: #fff;}
+#content .tl strong{display: block; font-size: var(--font-20-size); font-weight: 700; color: var(--color-point2);}
+#content .tl p{margin-top: 5px; font-size: var(--font-14-size); line-height: 1.6; letter-spacing: -0.02em; color: var(--color-font2);}
+#content .tl p span{margin-right: 7px; font-weight: 700; color: var(--color-point3);}

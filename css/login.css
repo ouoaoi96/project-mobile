@@ -1,0 +1,25 @@
+/* 로그인 */
+body{background: var(--color-sub1);}
+header h1 a{width: 57px; height: 28px; margin: 40px auto 0; background: url(../images/common/logo_black.png) no-repeat; text-indent: -9999px; overflow: hidden;}
+@media screen and (-webkit-min-device-pixel-ratio:2){
+header h1 a{background: url(../images/common/logo_blackx2.png) no-repeat; background-size: 57px 28px;}
+}
+
+#content{margin: 30px 20px 40px; padding: 40px 20px; background: #fff;}
+#content h2{font-size: var(--font-23-size); font-weight: 700; letter-spacing: -0.02em; color: var(--color-point2);}
+#content>p{margin-top: 5px; font-size: var(--font-14-size); line-height: 1.6; letter-spacing: -0.02em; color: var(--color-font3);}
+
+/* 입력칸 */
+#content form{margin-top: 30px;}
+#content form label{display: block; margin-bottom: 5px; font-size: var(--font-14-size); font-weight: 500; color: var(--color-point2);}
+#content form input{box-sizing: border-box; width: 100%; height: 44px; margin-bottom: 15px; padding: 0 15px; font-size: var(--font-14-size); border: 1px solid var(--color-sub2);}
+#content form input:focus{outline: 1px solid var(--color-main);}
+#content form .btn{height: auto; margin: 10px 0 0; padding: 14px 0; font-size: var(--font-16-size); color: #fff; background: var(--color-point2); border: 0;}
+
+/* 아이디찾기, 회원가입 */
+#content .find{display: flex; justify-content: center; margin-top: 20px;}
+#content .find a{padding: 0 10px; font-size: var(--font-14-size); line-height: 1; color: var(--color-font3);}
+#content .find a:first-child{border-right: 1px solid var(--color-font3);}
+#content .join_link{display: flex; justify-content: center; margin-top: 30px; font-size: var(--font-14-size);}
+#content .join_link span{color: var(--color-font2);}
+#content .join_link a{margin-left: 5px; font-weight: 700; color: var(--color-point2);}

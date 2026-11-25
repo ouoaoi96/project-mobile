@@ -1,0 +1,31 @@
+/* sub3_2 법고창신 콘텐츠 */
+#content .title_area{padding: 50px 20px 0; text-align: center;}
+#content .title_area .eng{margin-top: 0; font-size: var(--font-12-size); font-weight: 700; letter-spacing: 0.25em; color: var(--color-point3);}
+#content .title_area h2{margin-top: 9px; font-size: 2.5rem; font-weight: 300; line-height: 1.4; letter-spacing: -0.02em; color: var(--color-point2);}
+#content .title_area h2 strong{font-weight: 700;}
+#content .title_area p{margin-top: 10px; font-size: var(--font-16-size); line-height: 1.8; letter-spacing: -0.02em; color: var(--color-font2);}
+
+/* 되살린 다섯 가지 술 */
+#content .restore{padding: 45px 20px 50px;}
+#content .restore>.eng{margin-top: 0; font-size: var(--font-12-size); font-weight: 700; letter-spacing: 0.25em; color: var(--color-point3);}
+#content .restore h3{margin-top: 7px; font-size: var(--font-23-size); font-weight: 700; line-height: 1.4; letter-spacing: -0.02em; color: var(--color-point2);}
+#content .restore>p{margin-top: 10px; font-size: var(--font-14-size); line-height: 1.75; letter-spacing: -0.02em; color: var(--color-font2);}
+#content .acc{margin-top: 20px; border-top: 1px solid var(--color-point2);}
+#content .acc>li{border-bottom: 1px solid #e5e0da;}
+#content .acc>li.on{background: var(--color-sub1);}
+#content .acc .tit a{display: flex; align-items: center; padding: 16px 12px;}
+#content .acc .tit .eng{width: 13%; font-size: var(--font-14-size); font-weight: 700; color: var(--color-main);}
+#content .acc .tit .name{width: 77%; font-size: var(--font-12-size); color: var(--color-font3);}
+#content .acc .tit .name strong{display: block; margin-bottom: 2px; font-size: var(--font-18-size); font-weight: 700; letter-spacing: -0.02em; color: var(--color-point2);}
+#content .acc .tit .icon{width: 10%; text-align: right; font-size: var(--font-20-size); color: var(--color-font3);}
+#content .acc>li.on .icon{color: var(--color-main);}
+#content .acc .con{display: none; padding: 0 12px 20px;}
+#content .acc>li.on .con{display: block;}
+#content .acc .old{padding: 14px 13px; background: #fff; border-left: 3px solid var(--color-point3);}
+#content .acc .old p{font-size: var(--font-14-size); line-height: 1.7; letter-spacing: -0.02em; color: var(--color-point2);}
+#content .acc .old span{display: block; margin-top: 5px; font-size: var(--font-12-size); font-weight: 700; color: var(--color-point3);}
+#content .acc .desc{margin-top: 12px;}
+#content .acc .desc li{position: relative; margin-top: 4px; padding-left: 11px; font-size: var(--font-14-size); line-height: 1.7; letter-spacing: -0.02em; color: var(--color-font2);}
+#content .acc .desc li::before{content: ''; position: absolute; left: 0; top: 10px; width: 4px; height: 4px; border-radius: 50%; background: var(--color-main);}
+#content .acc .desc strong{color: var(--color-point2);}
+#content .acc .spec2{margin-top: 12px; font-family: "Roboto", sans-serif; font-size: var(--font-12-size); font-weight: 700; color: var(--color-point2);}

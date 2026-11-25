@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="apple-touch-icon-precomposed" href="./app_icon.png">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/join.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="./index.html">국순당로고</a></h1>
+    </header>
+    <article id="content">
+        <h2>회원가입 정보</h2>
+        <p><span>*</span> 는 필수 입력항목입니다.</p>
+        <form action="" method="post">
+            <ul>
+                <li>
+                    <label for="memberId">아이디</label>
+                    <input type="text" id="memberId" name="memberId" placeholder="kooksoondang123" required>
+                </li>
+                <li>
+                    <label for="memberPass">비밀번호</label>
+                    <input type="password" id="memberPass" name="memberPass" placeholder="****" required>
+                </li>
+                <li>
+                    <label for="memberPass2">비밀번호확인</label>
+                    <input type="password" id="memberPass2" name="memberPass2" placeholder="****" required>
+                </li>
+                <li>
+                    <label for="memberName">이름</label>
+                    <input type="text" id="memberName" name="memberName" placeholder="홍길동" required>
+                </li>
+                <li>
+                    <label for="memberNick">닉네임</label>
+                    <input type="text" id="memberNick" name="memberNick" placeholder="국순당" required>
+                </li>
+                <li>
+                    <!-- 휴대폰은 접근성으로 인해 라벨을 직접 달지 않고 번호에... -->
+                    <p class="tit">휴대폰<span>*</span></p>
+                    <div class="hp">
+                        <label for="hp1" class="hidden">전화번호국번</label>
+                        <select name="hp1" id="hp1">
+                            <option value="010">010</option>
+                            <option value="011">011</option>
+                            <option value="016">016</option>
+                            <option value="017">017</option>
+                            <option value="019">019</option>
+                        </select>
+                        <span>-</span>
+                        <label for="hp2" class="hidden">전화번호중간4자리</label>
+                        <input type="text" id="hp2" name="hp2" placeholder="0000" required>
+                        <span>-</span>
+                        <label for="hp3" class="hidden">전화번호끝4자리</label>
+                        <input type="text" id="hp3" name="hp3" placeholder="0000" required>
+                    </div>
+                </li>
+                <li>
+                    <p class="tit">이메일<span>*</span></p>
+                    <div class="mail">
+                        <label for="mail1" class="hidden">이메일id</label>
+                        <input type="text" id="mail1" name="mail1" placeholder="email-id" required>
+                        <span>@</span>
+                        <label for="mail2" class="hidden">이메일계정</label>
+                        <input type="text" id="mail2" name="mail2" placeholder="email-id.co.kr" required>
+                    </div>
+                </li>
+            </ul>
+            <div class="button">
+                <input type="submit" value="회원가입" class="ok">
+                <input type="reset" value="다시쓰기" class="re">
+            </div>
+        </form>
+    </article>
+</body>
+
+</html>

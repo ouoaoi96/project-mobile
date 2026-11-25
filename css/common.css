@@ -1,0 +1,162 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+/* font-family: "Noto Sans KR", sans-serif; */
+/* font-family: "Roboto", sans-serif; */
+
+:root{
+    --color-main : #FF8C00;
+    --color-point1 : #E67300;
+    --color-point2 : #2E2521;
+    --color-point3 : #C9A45C;
+    --color-sub1 : #FAFAFA;
+    --color-sub2 : #F0F0F0;
+    --color-font1 : #333;
+    --color-font2 : #666;
+    --color-font3 : #999;
+
+    --font-28-size : 2rem;
+    --font-23-size : 1.643rem;
+    --font-20-size : 1.429rem;
+    --font-18-size : 1.286rem;
+    --font-16-size : 1.143rem;
+    --font-14-size : 1rem;
+    --font-12-size : 0.857rem;
+    --font-11-size : 0.786rem;
+
+    --box-shadow1: 1px 1px 10px 1px rgba(0,0,0,.3);
+}
+.material-symbols-outlined {font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24}
+
+
+/* 모바일 코딩 필수 공통영역 */
+* {margin:0; padding:0; -webkit-text-size-adjust:none; }
+html{font-size: 14px;}
+body {color:#333; font-family: "Noto Sans KR", sans-serif;}
+.eng, .since, .label, .step{font-family: "Roboto", sans-serif;}
+img, fieldset { border:0; vertical-align:top }
+ul, ol, li, dl { list-style:none; }
+h1, h2, h3, h4, h5, h6 {font-size:100%; font-weight:normal;}
+hr { display:none; }
+a { color:#333; text-decoration: none; display: block; }
+a:visited { color:#333; }
+a:hover, a:active {color:#333; text-decoration:none;}
+em, i, address {font-style:normal; font-weight:normal;}
+legend, caption {display:none; clear:both;}
+input, textarea, select, button, table {font-size:inherit; font-family:inherit; line-height:inherit;}
+section, nav, article, aside, hgroup, header, footer { display:block }
+textarea, input {border-radius:1px;}
+textarea { resize:none; }
+label { cursor:pointer; }
+table{border-collapse: collapse;}
+.hidden,#skipNav{display: block; position: absolute; left:-1000%;top:0; width: 1px; height: 1px; overflow: hidden; color: #fff}
+
+
+/* 스플래시 스크린 전체 화면 설정 */
+#splash-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2E2521; /* 배경 색상 */
+  display: none; /* 기본 상태는 숨김 및 투명 처리 */
+  opacity: 0;
+  visibility: hidden;
+  z-index: 9999; /* 최상단에 배치 */
+  transition: opacity 0.5s ease-out, visibility 0.5s; /* 사라질 때 애니메이션 */
+}
+
+/* 첫 방문자에게 스플래시를 노출할 때 붙일 클래스 */
+#splash-screen.active {
+  display: flex;          /* 원래 가지고 있던 flex 정렬 활성화 */
+  justify-content: center;
+  align-items: center;
+  opacity: 1;             /* 투명도 원복 */
+  visibility: visible;    /* 가시성 원복 */
+}
+
+/* 스플래시 이미지 크기 및 애니메이션 (선택) */
+.splash-logo {
+  width: 100%; /* 이미지 크기 조절 */
+  height: auto;
+}
+
+/* 스플래시가 끝났을 때 적용할 클래스 */
+#splash-screen.fade-out {
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+
+/* 전체 공통 */
+#wrap{ width:100%; position: relative;  overflow:hidden;}
+
+/* 헤더공통 */
+/* 헤더영역 */
+#headerArea{background: linear-gradient(180deg, rgba(34,27,24,.94) 0%, rgba(34,27,24,.78) 40%, rgba(34,27,24,.42) 74%, rgba(34,27,24,.06) 100%); width: 100%; height: 55px; position: fixed; left: 0; top: 0; z-index: 100;}
+#headerArea .header_top{position: relative; height: 55px;}
+#headerArea h1{position: absolute; left: 50%; top: 14px; margin-left: -29px;}
+#headerArea h1 a{width: 57px; height: 28px; background: url(../images/common/logo.png) no-repeat; text-indent: -9999px; overflow: hidden;}
+/* 고해상도 폰(640) : 2배 로고로 교체, 크기는 320 기준 */
+@media screen and (-webkit-min-device-pixel-ratio:2){
+#headerArea h1 a, #headerArea #gnb .gnb_logo{background: url(../images/common/logox2.png) no-repeat; background-size: 57px 28px;}
+}
+
+#headerArea .menu_ham{display: block; width: 44px; height: 44px; position: absolute; right: 8px; top: 5px; z-index: 30;}
+#headerArea .menu_ham span{width: 20px; height: 2px; background: #fff; position: relative; text-indent: -9999px; display: block; margin: 21px 12px; transition: all .3s;}
+#headerArea .menu_ham span::before{content: ''; display: block; width: 20px; height: 2px; background: #fff; position: absolute; top: -7px; left: 0; transition: all .3s;}
+#headerArea .menu_ham span::after{content: ''; display: block; width: 20px; height: 2px; background: #fff; position: absolute; top: 7px; left: 0; transition: all .3s;}
+
+/* 메뉴가 열렸을때 */
+#headerArea.mn_open .menu_ham span, #headerArea.mn_open .menu_ham span::before, #headerArea.mn_open .menu_ham span::after {background: #fff;}
+#headerArea.mn_open .menu_ham span {background: rgba(0,0,0,0);}
+#headerArea.mn_open .menu_ham span::before {transform: rotate(45deg); top: 0;}
+#headerArea.mn_open .menu_ham span::after {transform: rotate(-45deg); top: 0;}
+
+/* nav 영역*/
+#headerArea .modal{position: fixed; width: 100%; height: 100%; left: 0; top: 0; z-index: 10; background: rgba(0,0,0,.8); display: none;}
+#headerArea #gnb{position: absolute; width: 85%;  right:-100%; top:0; opacity: 0; background: var(--color-point2); z-index:20}
+#headerArea #gnb .gnb_logo{display: block; width: 57px; height: 28px; margin: 20px 0 0 20px; background: url(../images/common/logo.png) no-repeat; text-indent: -9999px; overflow: hidden;}
+#headerArea #gnb .welcome{padding: 22px 20px 20px; font-size: var(--font-14-size); font-weight: 400; color: #fff;}
+#headerArea #gnb li h3 a{display: flex; justify-content: space-between; align-items: center; padding: 17px 0; font-weight: 700; margin: 0 20px; border-bottom: 1px solid rgba(0,0,0,0); font-size: var(--font-20-size); color: #fff;}
+#headerArea #gnb li h3 a.on{border-bottom-color: var(--color-main);}
+#headerArea #gnb .depth1{border-top: 8px solid #3d3330;}
+#headerArea #gnb li a{padding: 12px 20px; font-size: var(--font-16-size); font-weight: 600; display: block; color: rgba(255,255,255,.7);}
+#headerArea #gnb li ul{display: none}
+#headerArea #gnb .login{display: flex; justify-content: flex-end; border-top: 8px solid #3d3330; padding: 20px;}
+#headerArea #gnb .login li:first-child{border-right: 1px solid rgba(255,255,255,.5); padding-right: 12px; margin-right: 12px;}
+#headerArea #gnb .login a{color: #fff; font-size: var(--font-14-size); padding: 0;}
+
+
+
+/* 푸터공통 */
+#footerArea{color: rgba(255,255,255,.7); background: var(--color-point2); border-top: 1px solid var(--color-font2); padding: 40px 20px 30px; font-size: var(--font-11-size); line-height: 1.7;}
+#footerArea .top_move{width: 45px; height: 45px; background: var(--color-main); color: #fff; box-shadow: var(--box-shadow1); border-radius: 50%; position: fixed; right: 10px; bottom: 50px; z-index: 50; display: none;}
+#footerArea .top_move span{display: flex; width: 100%; height: 100%; justify-content: center; align-items: center; font-weight: 600;}
+#footerArea img{display: block;}
+#footerArea .policy{display: flex; gap: 15px; padding: 18px 0 13px;}
+#footerArea .policy a{color: #fff; font-size: var(--font-12-size);}
+#footerArea address{font-style: normal;}
+#footerArea .sns{display: flex; gap: 9px; margin: 18px 0;}
+#footerArea .sns a{display: flex; width: 32px; height: 32px; justify-content: center; align-items: center; border: 1px solid rgba(255,255,255,.4); border-radius: 50%; color: #fff;}
+#footerArea .sns span{font-size: var(--font-16-size);}
+#footerArea .family{border: 1px solid rgba(255,255,255,.3);}
+#footerArea .family .arrow{display: block; padding: 12px 14px; color: #fff; font-size: var(--font-12-size);}
+#footerArea .family .arrow span{float: right;}
+#footerArea .aList{display: none;}
+#footerArea .aList a{padding: 8px 14px; font-size: var(--font-12-size); color: rgba(255,255,255,.7);}
+#footerArea .copy{margin-top: 20px; font-size: var(--font-11-size); letter-spacing: 0.05em; color: rgba(255,255,255,.5);}
+
+/* 서브공통 */
+.sub_visual{position: relative;}
+.sub_visual img{width: 100%; display: block;}
+.sub_visual span{display: block; font-size: var(--font-12-size); font-weight: 500; letter-spacing: 0.25em; color: var(--color-main);}
+.sub_visual strong{display: block; margin-top: 5px; font-size: var(--font-23-size); font-weight: 500; letter-spacing: -0.02em; color: #fff;}
+.sub_visual .visual_txt{position: absolute; left: 0; bottom: 30%; width: 100%; text-align: center; z-index: 10;}
+.sub_visual::after{content: ''; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: linear-gradient(180deg, rgba(34,27,24,.35), rgba(34,27,24,.7));}
+.sub_menu ul{display: flex; border-bottom: 1px solid #e5e0da;}
+.sub_menu li{width: 33.333%;}
+.sub_menu a{padding: 14px 0 13px 0; text-align: center; font-size:1.15rem; letter-spacing: -0.02em; color:#666; border-bottom: 2px solid rgba(0,0,0,0); font-weight: 500;}
+.sub_menu a.active{color: var(--color-point2); font-weight: 700; border-bottom-color: var(--color-main);}

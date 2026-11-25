@@ -1,0 +1,24 @@
+/* 약관 동의 */
+body{background: var(--color-sub1);}
+header h1 a{width: 57px; height: 28px; margin: 40px auto 0; background: url(../images/common/logo_black.png) no-repeat; text-indent: -9999px; overflow: hidden;}
+@media screen and (-webkit-min-device-pixel-ratio:2){
+header h1 a{background: url(../images/common/logo_blackx2.png) no-repeat; background-size: 57px 28px;}
+}
+
+#content{margin: 30px 20px 40px; padding: 40px 20px; background: #fff;}
+#content h2{text-align: center; font-size: var(--font-23-size); font-weight: 700; letter-spacing: -0.02em; color: var(--color-point2);}
+#content h3{margin-top: 30px; font-size: var(--font-16-size); font-weight: 700; letter-spacing: -0.02em; color: var(--color-point2);}
+
+/* 약관 내용 */
+#content .policy{height: 8.571rem; margin-top: 10px; padding: 10px; overflow-y: scroll; font-size: var(--font-12-size); line-height: 1.6; color: var(--color-font2); border: 1px solid var(--color-sub2);}
+
+/* 동의 체크 */
+#content .check{display: flex; align-items: center; margin-top: 10px;}
+#content .check input{width: 18px; height: 18px; margin: 0 8px 0 0;}
+#content .check label{width: 88%; font-size: var(--font-12-size); line-height: 1.5; color: var(--color-font1);}
+
+/* 버튼 */
+#content .button{display: flex; justify-content: space-between; margin-top: 30px;}
+#content .button a{box-sizing: border-box; width: 48.5%; padding: 14px 0; text-align: center; font-size: var(--font-14-size);}
+#content .button .allcheck{color: var(--color-point2); background: #fff; border: 1px solid var(--color-point2);}
+#content .button .ok{color: #fff; background: var(--color-point2); border: 1px solid var(--color-point2);}

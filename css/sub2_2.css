@@ -1,0 +1,30 @@
+/* sub2_2 우리술 복원사업 콘텐츠 */
+#content .title_area{padding: 50px 20px 0; text-align: center;}
+#content .title_area .eng{margin-top: 0; font-size: var(--font-12-size); font-weight: 700; letter-spacing: 0.25em; color: var(--color-point3);}
+#content .title_area h2{margin-top: 9px; font-size: 2.5rem; font-weight: 300; line-height: 1.4; letter-spacing: -0.02em; color: var(--color-point2);}
+#content .title_area h2 strong{font-weight: 700;}
+#content .title_area p{margin-top: 10px; font-size: var(--font-16-size); line-height: 1.8; letter-spacing: -0.02em; color: var(--color-font2);}
+
+/* 법고창신 */
+#content .meaning{position: relative; margin-top: 45px; padding: 45px 20px; text-align: center; background: url(../images/sub2_2/sub2_2_01x2.jpg) center / cover no-repeat;}
+#content .meaning::before{content: ''; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: rgba(46,37,33,.82);}
+#content .meaning h3{position: relative; font-size: var(--font-20-size); font-weight: 300; line-height: 1.5; letter-spacing: -0.02em; color: #fff;}
+#content .meaning h3 strong{font-weight: 700; color: var(--color-main);}
+#content .meaning p{position: relative; margin-top: 15px; font-size: var(--font-14-size); line-height: 1.75; letter-spacing: -0.02em; color: rgba(255,255,255,.7);}
+#content .meaning .han{margin-top: 20px; font-size: var(--font-28-size); font-weight: 700; line-height: 1.4; letter-spacing: 0.2em; color: var(--color-point3);}
+#content .meaning .han span{display: block; margin-top: 4px; font-size: var(--font-12-size); font-weight: 400; letter-spacing: 0; color: rgba(255,255,255,.55);}
+
+/* 복원의 흐름 */
+#content .flow{padding: 45px 0 50px;}
+#content .flow>p, #content .flow h3{padding: 0 20px;}
+#content .flow .eng{font-size: var(--font-12-size); font-weight: 700; letter-spacing: 0.25em; color: var(--color-point3);}
+#content .flow h3{margin: 7px 0 10px; font-size: var(--font-23-size); font-weight: 700; line-height: 1.4; letter-spacing: -0.02em; color: var(--color-point2);}
+#content .flow>p{font-size: var(--font-14-size); line-height: 1.75; letter-spacing: -0.02em; color: var(--color-font2);}
+#content .flow .band{margin-top: 20px; border-top: 1px solid var(--color-point2); border-bottom: 1px solid #e5e0da;}
+#content .flow .band .swiper-container{padding: 0 20px;}
+#content .flow .band .row2{border-top: 1px solid #e5e0da;}
+#content .flow .band ul{padding: 12px 0; font-size: var(--font-14-size); font-weight: 500; letter-spacing: -0.02em; color: var(--color-point2);}
+#content .flow .band .row2 ul{color: var(--color-font2);}
+#content .flow .band li{display: flex; align-items: center; width: auto; white-space: nowrap;}
+#content .flow .band li::after{content: ''; width: 2px; height: 2px; margin: 0 7px; border-radius: 50%; background: var(--color-main);}
+#content .flow .band li:last-child::after{display: none;}

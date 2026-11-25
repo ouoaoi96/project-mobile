@@ -1,0 +1,41 @@
+/* sub3_3 제품 검색 콘텐츠 */
+#content .title_area{padding: 50px 20px 0; text-align: center;}
+#content .title_area .eng{margin-top: 0; font-size: var(--font-12-size); font-weight: 700; letter-spacing: 0.25em; color: var(--color-point3);}
+#content .title_area h2{margin-top: 9px; font-size: 2.5rem; font-weight: 300; line-height: 1.4; letter-spacing: -0.02em; color: var(--color-point2);}
+#content .title_area h2 strong{font-weight: 700;}
+#content .title_area p{margin-top: 10px; font-size: var(--font-16-size); line-height: 1.8; letter-spacing: -0.02em; color: var(--color-font2);}
+
+/* 검색창 */
+#content .finder{display: flex; margin: 30px 20px 0; border: 1px solid var(--color-point2);}
+#content .finder input{width: 85%; padding: 0 13px; border: 0; font-size: var(--font-14-size); color: var(--color-font1);}
+#content .finder input:focus{outline: none;}
+#content .finder button{width: 15%; height: 44px; border: 0; background: var(--color-point2); color: #fff;}
+#content .finder button span{font-size: var(--font-20-size);}
+
+/* 분류 버튼 */
+#content .cate{margin-top: 15px;}
+#content .cate ul{display: flex; flex-wrap: wrap; padding: 0 20px;}
+#content .cate li{margin: 0 6px 6px 0;}
+#content .cate button{padding: 6px 14px; white-space: nowrap; font-size: var(--font-14-size); color: var(--color-font2); background: #fff; border: 1px solid #e5e0da; border-radius: 20px;}
+#content .cate button.on{font-weight: 700; color: #fff; background: var(--color-main); border: 1px solid var(--color-main);}
+
+/* 제품 목록 */
+#content .count{margin: 20px 20px 0; font-size: var(--font-14-size); color: var(--color-font2);}
+#content .count span{font-weight: 700; color: var(--color-main);}
+#content .product_list ul{display: flex; flex-wrap: wrap; justify-content: space-between; padding: 0 20px 50px;}
+#content .product_list li{width: 48.5%; margin-top: 15px;}
+#content .product_list img{width: 100%; display: block; background: var(--color-sub2);}
+#content .product_list .spec{display: block; margin-top: 8px; font-size: var(--font-12-size); color: var(--color-point1);}
+#content .product_list strong{display: block; margin-top: 2px; font-size: var(--font-16-size); font-weight: 700; letter-spacing: -0.02em; color: var(--color-point2);}
+#content .product_list p{margin-top: 4px; font-size: var(--font-12-size); line-height: 1.6; letter-spacing: -0.02em; color: var(--color-font2);}
+#content .product_list .pop_open{margin-top: 7px;}
+#content .product_list .pop_open span{font-family: "Roboto", sans-serif; font-size: var(--font-12-size); font-weight: 700; letter-spacing: 0.1em; color: var(--color-point2); border-bottom: 1px solid var(--color-point2);}
+
+/* 팝업 */
+#content .modal_box{display: none; position: fixed; left: 0; top: 0; width: 100%; height: 100%; background: rgba(0,0,0,.7); z-index: 200;}
+#content .modal_box .popup{position: absolute; left: 50%; top: 50%; width: 85%; padding: 30px 20px; transform: translate(-50%, -50%); text-align: center; background: #fff; box-sizing: border-box;}
+#content .modal_box .pop_con img{width: 50%; margin: 0 auto; display: block;}
+#content .modal_box .pop_con .name{margin-top: 12px; font-size: var(--font-20-size); font-weight: 700; color: var(--color-point2);}
+#content .modal_box .pop_con span{display: block; margin-top: 5px; font-size: var(--font-14-size); color: var(--color-point1);}
+#content .modal_box .pop_con .txt{margin-top: 12px; font-size: var(--font-14-size); line-height: 1.75; letter-spacing: -0.02em; color: var(--color-font2);}
+#content .modal_box .close_pop{width: 40%; margin: 20px auto 0; padding: 9px 0; font-size: var(--font-14-size); color: var(--color-point2); border: 1px solid var(--color-point2); border-radius: 20px;}

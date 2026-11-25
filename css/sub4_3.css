@@ -1,0 +1,37 @@
+/* sub4_3 FAQ */
+#content .title_area{padding: 50px 20px 0; text-align: center;}
+#content .title_area .eng{margin-top: 0; font-size: var(--font-12-size); font-weight: 700; letter-spacing: 0.25em; color: var(--color-point3);}
+#content .title_area h2{margin-top: 9px; font-size: 2.5rem; font-weight: 300; line-height: 1.4; letter-spacing: -0.02em; color: var(--color-point2);}
+#content .title_area h2 strong{font-weight: 700;}
+#content .title_area p{margin-top: 10px; font-size: var(--font-16-size); line-height: 1.8; letter-spacing: -0.02em; color: var(--color-font2);}
+
+/* 자주 묻는 질문 */
+#content .faq{padding: 50px 20px;}
+#content .faq .group{display: flex; justify-content: space-between; align-items: center; padding-bottom: 12px; border-bottom: 2px solid var(--color-point2);}
+#content .faq .group h3{font-size: var(--font-23-size); font-weight: 700; letter-spacing: -0.02em; color: var(--color-point2);}
+#content .faq .all{font-size: var(--font-14-size); color: var(--color-font2);}
+#content .acc>li{border-bottom: 1px solid #e5e0da;}
+#content .acc .tit a{display: flex; justify-content: space-between; align-items: center; padding: 12px 0;}
+#content .acc .tit .eng{width: 9%; font-size: var(--font-18-size); font-weight: 700; color: var(--color-main);}
+#content .acc .tit .txt{width: 81%; font-size: var(--font-14-size); line-height: 1.5; letter-spacing: -0.02em; color: var(--color-font1);}
+#content .acc .tit .icon{width: 10%; text-align: right; font-size: var(--font-20-size); color: var(--color-font3);}
+#content .acc>li.on .txt{font-weight: 700; color: var(--color-main);}
+#content .acc .con{display: none; position: relative; padding: 15px 15px 15px 40px; background: var(--color-sub1);}
+#content .acc>li.on .con{display: block;}
+#content .acc .con .eng{position: absolute; left: 12px; top: 15px; font-size: var(--font-18-size); font-weight: 700; color: var(--color-point3);}
+#content .acc .con p{font-size: var(--font-14-size); line-height: 1.7; letter-spacing: -0.02em; color: var(--color-font2);}
+
+/* 문의하기 */
+#content .contact{padding: 50px 20px; background: var(--color-sub1);}
+#content .contact h3{text-align: center; font-size: var(--font-23-size); font-weight: 700; letter-spacing: -0.02em; color: var(--color-point2);}
+#content .contact .lead{margin-top: 10px; text-align: center; font-size: var(--font-14-size); line-height: 1.75; letter-spacing: -0.02em; color: var(--color-font2);}
+#content .contact form{margin-top: 25px;}
+#content .contact label{display: block; margin: 15px 0 6px; font-size: var(--font-14-size); font-weight: 500; color: var(--color-font1);}
+#content .contact label span{margin-left: 3px; color: var(--color-main);}
+#content .contact input, #content .contact textarea{box-sizing: border-box; width: 100%; padding: 0 15px; font-size: var(--font-14-size); color: var(--color-font1); background: #fff; border: 1px solid var(--color-sub2);}
+#content .contact input{height: 44px;}
+#content .contact textarea{height: 7rem; padding: 12px 15px; line-height: 1.7;}
+#content .contact input:focus, #content .contact textarea:focus{outline: 1px solid var(--color-main);}
+#content .contact button{width: 60%; margin: 25px auto 0; display: block; padding: 14px 0; font-size: var(--font-16-size); color: #fff; background: var(--color-point2); border: 0;}
+#content .contact .row{display: flex; justify-content: space-between;}
+#content .contact .half{width: 48.5%;}

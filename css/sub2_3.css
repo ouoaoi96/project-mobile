@@ -1,0 +1,84 @@
+/* sub2_3 국순당술의 특징 콘텐츠 */
+#content .title_area{padding: 50px 20px 0; text-align: center;}
+#content .title_area .eng{margin-top: 0; font-size: var(--font-12-size); font-weight: 700; letter-spacing: 0.25em; color: var(--color-point3);}
+#content .title_area h2{margin-top: 9px; font-size: 2.5rem; font-weight: 300; line-height: 1.4; letter-spacing: -0.02em; color: var(--color-point2);}
+#content .title_area h2 strong{font-weight: 700;}
+#content .title_area p{margin-top: 10px; font-size: var(--font-16-size); line-height: 1.8; letter-spacing: -0.02em; color: var(--color-font2);}
+
+/* 동그라미 탭 */
+#content .key_tab{display: flex; justify-content: center; margin-top: 35px;}
+#content .key_tab li{padding: 0 10px;}
+#content .key_tab a{display: block; text-align: center;}
+#content .key_tab img{width: 90px; display: block; border: 3px solid #fff; border-radius: 50%; box-shadow: 0 0 0 1px #e5e0da;}
+#content .key_tab a.active img{box-shadow: 0 0 0 2px var(--color-main);}
+#content .key_tab span{display: block; margin-top: 9px; font-size: var(--font-14-size); letter-spacing: -0.02em; color: var(--color-font2);}
+#content .key_tab a.active span{font-weight: 700; color: var(--color-point2);}
+
+/* 탭 공통 */
+#content .intro{margin: 35px 20px 0; text-align: center;}
+#content .intro p{margin-top: 10px; font-size: var(--font-14-size); line-height: 1.7; letter-spacing: -0.02em; color: var(--color-font2);}
+#content .intro .q{margin-top: 0; font-size: var(--font-18-size); font-weight: 300; line-height: 1.55; color: var(--color-point2);}
+#content .intro .q strong{font-weight: 700; color: var(--color-main);}
+#content .tab_box .eng{font-size: var(--font-12-size); font-weight: 700; letter-spacing: 0.25em; color: var(--color-point3);}
+#content .tab_box h4{margin-top: 7px; font-size: var(--font-23-size); font-weight: 700; line-height: 1.4; letter-spacing: -0.02em; color: var(--color-point2);}
+
+/* 설갱미 탭 */
+#content .photo{position: relative; margin: 25px 20px 0;}
+#content .photo img{width: 100%; display: block;}
+#content .photo span{position: absolute; bottom: 0; padding: 5px 9px; font-size: var(--font-12-size); font-weight: 700; color: #fff; background: rgba(46,37,33,.75);}
+#content .photo .l{left: 0;}
+#content .photo .r{right: 0; background: rgba(153,153,153,.85);}
+#content .nutrition{padding: 50px 20px 0;}
+#content .nutrition .row{margin-top: 20px;}
+#content .nutrition .tit{display: flex; justify-content: space-between; align-items: center;}
+#content .nutrition .tit strong{font-size: var(--font-14-size); font-weight: 700; color: var(--color-point2);}
+#content .nutrition .tit span{font-size: var(--font-12-size); color: var(--color-font3);}
+#content .nutrition .row p{display: flex; align-items: center; margin-top: 5px;}
+#content .nutrition .row .name{width: 20%; font-size: var(--font-12-size); color: var(--color-font2);}
+#content .nutrition .row .bar{display: block; height: 12px; background: #e5e0da;}
+#content .nutrition .row .on .bar{background: var(--color-main);}
+#content .nutrition .row .num{margin-left: 7px; font-family: "Roboto", sans-serif; font-size: var(--font-12-size); font-weight: 700; color: var(--color-font2);}
+#content .nutrition .row .on .num{color: var(--color-main);}
+#content .nutrition .w43{width: 43%;}
+#content .nutrition .w47{width: 47%;}
+#content .nutrition .w51{width: 51%;}
+#content .nutrition .w53{width: 53%;}
+#content .nutrition .w55{width: 55%;}
+#content .taste{display: flex; justify-content: space-between; margin: 50px 20px 0;}
+#content .taste li{box-sizing: border-box; width: 48.5%; padding: 20px 15px; background: var(--color-sub1);}
+#content .taste li.on{background: var(--color-point2);}
+#content .taste .eng{letter-spacing: 0.2em;}
+#content .taste li.on .eng{color: var(--color-main);}
+#content .taste strong{display: block; margin-top: 5px; font-size: var(--font-16-size); font-weight: 700; color: var(--color-point2);}
+#content .taste li.on strong{color: #fff;}
+#content .taste p{margin-top: 7px; font-size: var(--font-12-size); line-height: 1.65; letter-spacing: -0.02em; color: var(--color-font2);}
+#content .taste li.on p{color: rgba(255,255,255,.7);}
+
+/* 생쌀발효법 탭 */
+#content .quote{margin: 30px 20px 0; padding: 20px 18px; background: var(--color-sub1); border-left: 3px solid var(--color-point3);}
+#content .quote p{font-size: var(--font-16-size); font-weight: 500; line-height: 1.6; letter-spacing: -0.02em; color: var(--color-point2);}
+#content .quote span{display: block; margin-top: 6px; font-size: var(--font-12-size); font-weight: 700; color: var(--color-point3);}
+#content .story{margin: 20px 20px 0;}
+#content .story p{font-size: var(--font-14-size); line-height: 1.75; letter-spacing: -0.02em; color: var(--color-font2);}
+#content .story strong{color: var(--color-point2);}
+#content .story img{width: 100%; margin-top: 20px; display: block;}
+#content .merit{padding: 50px 20px 0;}
+#content .merit ul{display: flex; flex-wrap: wrap; justify-content: space-between; margin-top: 10px;}
+#content .merit li{box-sizing: border-box; width: 48.5%; margin-top: 10px; padding: 17px 14px; border: 1px solid #e5e0da;}
+#content .merit li .eng{display: block; letter-spacing: 0.1em; color: var(--color-main);}
+#content .merit li strong{display: block; margin-top: 4px; font-size: var(--font-16-size); font-weight: 700; color: var(--color-point2);}
+#content .merit li p{margin-top: 6px; font-size: var(--font-12-size); line-height: 1.6; letter-spacing: -0.02em; color: var(--color-font2);}
+
+/* 농가와의 약속재배 */
+#content .farm{position: relative; margin-top: 50px; padding: 45px 20px; text-align: center; background: url(../images/sub2_3/sub2_3_05x2.jpg) center / cover no-repeat;}
+#content .farm::before{content: ''; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: rgba(46,37,33,.78);}
+#content .farm .eng, #content .farm h3, #content .farm p, #content .farm ul{position: relative;}
+#content .farm .eng{margin-top: 0; font-size: var(--font-12-size); font-weight: 700; letter-spacing: 0.25em; color: var(--color-main);}
+#content .farm h3{margin-top: 7px; font-size: var(--font-23-size); font-weight: 700; line-height: 1.4; letter-spacing: -0.02em; color: #fff;}
+#content .farm p{margin-top: 10px; font-size: var(--font-14-size); line-height: 1.75; letter-spacing: -0.02em; color: rgba(255,255,255,.7);}
+#content .farm ul{display: flex; margin-top: 25px;}
+#content .farm li{width: 50%;}
+#content .farm li:last-child{border-left: 1px solid rgba(255,255,255,.25);}
+#content .farm strong{font-family: "Roboto", sans-serif; font-size: 2.286rem; font-weight: 700; color: var(--color-main);}
+#content .farm strong span{margin-left: 2px; font-size: var(--font-14-size); color: #fff;}
+#content .farm li p{margin-top: 4px; font-size: var(--font-12-size); color: rgba(255,255,255,.65);}

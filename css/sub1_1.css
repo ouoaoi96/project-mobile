@@ -1,0 +1,30 @@
+/* sub1_1 국순당소개 콘텐츠 */
+#content .title_area{padding: 50px 20px; background: var(--color-sub1); position: relative; overflow: hidden;}
+#content .title_area .eng{font-size: var(--font-12-size); font-weight: 700; letter-spacing: 0.25em; color: var(--color-point3);}
+#content .title_area h2{padding-top: 9px; font-size:2.5rem; font-weight: 300; line-height: 1.4; letter-spacing: -0.02em; color: var(--color-point2);}
+#content .title_area h2 strong{font-weight: 700;}
+#content .title_area h2::after{content: ''; width: 30px; height: 2px; background: var(--color-main); margin: 20px 0; display: block;}
+#content .title_area p{font-size: var(--font-16-size); line-height: 1.8; letter-spacing: -0.02em; color: var(--color-font2);}
+#content .title_area p span{color: var(--color-point2); font-weight: 500;}
+#content .title_area::before{content: '1952'; position: absolute; right: -10px; top: 20px; font-size: 5.357rem; font-weight: 700; line-height: 1; color: rgba(46,37,33,.04); font-family: "Roboto", sans-serif;}
+
+#content .value{padding: 50px 20px; text-align: center;}
+#content .value .eng{font-size: var(--font-12-size); font-weight: 700;letter-spacing: 0.25em; color: var(--color-point3);}
+#content .value h3{margin-top: 7px; font-size: var(--font-23-size); font-weight: 700; line-height: 1.35; letter-spacing: -0.02em; color: var(--color-point2);}
+#content .value ul{display: flex; margin-top: 28px; border-top: 1px solid #ccc;}
+#content .value li{width: 33.333%; padding-top: 20px; border-left: 1px solid #e5e0da;}
+#content .value li:first-child{border-left: 0;}
+#content .value dt{font-size: var(--font-16-size); font-weight: 700; color: var(--color-point2);}
+#content .value dt .eng{display: block; margin-bottom: 5px; font-size: 1.857rem; font-weight: 700; color: var(--color-main);}
+#content .value dd{margin-top: 6px; font-size: var(--font-12-size); line-height: 1.55; color: var(--color-font3)}
+#content .story{position: relative;}
+#content .story img{width: 100%; display: block;}
+#content .story div{position: relative; margin: -55px 20px 0; padding: 28px 22px 30px; background: var(--color-point2);}
+#content .story .eng{font-size: var(--font-12-size); font-weight: 700; letter-spacing: 0.25em; color: var(--color-main);}
+#content .story h3{margin: 8px 0 11px; font-size: var(--font-20-size); font-weight: 700; line-height: 1.4; letter-spacing: -0.02em; color: #fff;}
+#content .story p{font-size: var(--font-14-size); line-height: 1.75; letter-spacing: -0.02em; color: rgba(255,255,255,.7);}
+#content .quote{position: relative; margin-top: 50px; padding: 36px 20px; text-align: center; background: url(../images/sub1_1/sub1_1_02x2.jpg) center / cover no-repeat;}
+#content .quote::before{content: ''; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background: rgba(46,37,33,.7);}
+#content .quote p{position: relative; font-size: var(--font-23-size); font-weight: 300; line-height: 1.45; letter-spacing: -0.02em; color: #fff;}
+#content .quote strong{font-weight: 700; color: var(--color-main);}
+#content .quote span{position: relative; display: block; margin-top: 13px; font-size: var(--font-12-size); letter-spacing: 0.35em; color: rgba(255,255,255,.55);}

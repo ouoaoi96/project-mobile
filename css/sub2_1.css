@@ -1,0 +1,44 @@
+/* sub2_1 우리술 알아보기 콘텐츠 */
+#content .title_area{padding: 50px 20px 0; text-align: center;}
+#content .title_area .eng{margin-top: 0; font-size: var(--font-12-size); font-weight: 700; letter-spacing: 0.25em; color: var(--color-point3);}
+#content .title_area h2{margin-top: 9px; font-size: 2.5rem; font-weight: 300; line-height: 1.4; letter-spacing: -0.02em; color: var(--color-point2);}
+#content .title_area h2 strong{font-weight: 700;}
+#content .title_area p{margin-top: 10px; font-size: var(--font-16-size); line-height: 1.8; letter-spacing: -0.02em; color: var(--color-font2);}
+
+/* 술이라는 말 */
+#content .word{margin-top: 50px; padding: 50px 20px; text-align: center; background: var(--color-sub1);}
+#content .word .eng{font-size: var(--font-12-size); font-weight: 700; letter-spacing: 0.25em; color: var(--color-point3);}
+#content .word h3{margin-top: 7px; font-size: var(--font-23-size); font-weight: 700; line-height: 1.4; letter-spacing: -0.02em; color: var(--color-point2);}
+#content .word img{width: 35.7%; margin: 20px auto 0; display: block;}
+#content .word p{margin-top: 10px; font-size: var(--font-14-size); line-height: 1.75; letter-spacing: -0.02em; color: var(--color-font2);}
+#content .word ul{display: flex; justify-content: space-between; margin-top: 25px;}
+#content .word li{position: relative; width: 55px; height: 55px; display: flex; justify-content: center; align-items: center; font-size: var(--font-16-size); font-weight: 700; color: var(--color-point2); background: #fff; border: 1px solid #e5e0da; border-radius: 50%;}
+#content .word li::after{content: '›'; position: absolute; right: -15px; top: 16px; font-size: var(--font-14-size); font-weight: 400; color: var(--color-point3);}
+#content .word li.on{color: #fff; background: var(--color-main); border: 1px solid var(--color-main);}
+#content .word li.on::after{display: none;}
+
+/* 시대를 지나온 우리술 */
+#content .era{padding: 50px 0 50px 20px;}
+#content .era .eng{font-size: var(--font-12-size); font-weight: 700; letter-spacing: 0.25em; color: var(--color-point3);}
+#content .era h3{margin-top: 7px; font-size: var(--font-23-size); font-weight: 700; line-height: 1.4; letter-spacing: -0.02em; color: var(--color-point2);}
+#content .era .swiper-container{margin-top: 20px; padding-bottom: 30px;}
+#content .era .swiper-slide{width: 70%; padding: 20px 18px 22px; background: var(--color-sub1); border-top: 3px solid var(--color-main);}
+#content .era .num{display: block; font-family: "Roboto", sans-serif; font-size: 2.571rem; font-weight: 700; line-height: 1; color: rgba(46,37,33,.08);}
+#content .era .swiper-slide .eng{display: block; margin-top: 7px; letter-spacing: 0.2em; color: var(--color-main);}
+#content .era strong{display: block; margin-top: 7px; font-size: var(--font-18-size); font-weight: 700; letter-spacing: -0.02em; color: var(--color-point2);}
+#content .era .swiper-slide p{margin-top: 8px; font-size: var(--font-14-size); line-height: 1.65; letter-spacing: -0.02em; color: var(--color-font2);}
+#content .era .swiper-pagination{left: 0; bottom: 0; text-align: left;}
+#content .era .swiper-pagination-bullet{width: 7px; height: 7px; margin: 0 7px 0 0; background: #e5e0da; opacity: 1;}
+#content .era .swiper-pagination-bullet-active{width: 22px; border-radius: 4px; background: var(--color-main);}
+
+/* 우리술 즐기기 */
+#content .enjoy{padding: 45px 20px 50px; background: var(--color-point2);}
+#content .enjoy .eng{font-size: var(--font-12-size); font-weight: 700; letter-spacing: 0.25em; color: var(--color-main);}
+#content .enjoy h3{margin-top: 7px; font-size: var(--font-23-size); font-weight: 700; line-height: 1.4; letter-spacing: -0.02em; color: #fff;}
+#content .enjoy p{margin-top: 10px; font-size: var(--font-14-size); letter-spacing: -0.02em; color: rgba(255,255,255,.7);}
+#content .enjoy li{display: flex; justify-content: space-between; align-items: center; margin-top: 20px;}
+#content .enjoy li img{width: 32%; display: block;}
+#content .enjoy li div{width: 63%;}
+#content .enjoy li .eng{letter-spacing: 0.2em;}
+#content .enjoy li strong{display: block; margin-top: 3px; font-size: var(--font-16-size); font-weight: 700; letter-spacing: -0.02em; color: #fff;}
+#content .enjoy li p{margin-top: 4px; font-size: var(--font-12-size); line-height: 1.6; color: rgba(255,255,255,.65);}
